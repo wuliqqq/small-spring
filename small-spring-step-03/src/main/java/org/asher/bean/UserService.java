@@ -8,7 +8,7 @@ package org.asher.bean;
  * \
  */
 public class UserService {
-    private final String name;
+    private String name;
 
 
 
@@ -18,6 +18,9 @@ public class UserService {
 
     public UserService(String name) {
         this.name = name;
+    }
+
+    public UserService() {
     }
 
     @Override
